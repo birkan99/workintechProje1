@@ -124,7 +124,7 @@ console.log(besyuzdenkucuksayilar)
 /* kodlar buraya */
 
 // 3e çözümü
-
+siralisayilar = [...besyuzdenkucuksayilar].sort((a, b) => a - b);
 /* kodlar buraya */
 
 // 3f çözümü
