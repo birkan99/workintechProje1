@@ -49,13 +49,12 @@ console.log(KareninAlani(10));
 	3. Çemberin çevresi hesaplanacaktır (💡 İPUCU: Çemberin çevresi = 2 * pi * yarıçap)
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
-
-function CemberinCevresi(/* kodlar buraya */) {
-  /* kodlar buraya */
+function CemberinCevresi(yaricap) {
+  return yaricap*pi*2;
 }
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
-
+console.log(CemberinCevresi(5));
 /* 	GÖREV 2:  
 - CemberinAlani fonksiyonunu kullanarak aşağıdaki yönergeleri uygulayın:
 	1. Argüman olarak çemberin yarıçapını BİRİNCİ parametre olacak alacaktır. 
