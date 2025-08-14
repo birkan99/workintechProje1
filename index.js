@@ -128,8 +128,19 @@ siralisayilar = [...besyuzdenkucuksayilar].sort((a, b) => a - b);
 /* kodlar buraya */
 
 // 3f çözümü
+tekraredensayilar = [];
+const tekrarSayilari = {};
 
-/* kodlar buraya */
+sayilar.forEach(sayi => {
+  tekrarSayilari[sayi] = (tekrarSayilari[sayi] || 0) + 1;
+});
+
+for (let sayi in tekrarSayilari) {
+  if (tekrarSayilari[sayi] > 1) {
+    tekraredensayilar.push(`${sayi} sayısı ${tekrarSayilari[sayi]} kere tekrar edilmiştir`);
+  }
+}
+console.log(tekraredensayilar);
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
