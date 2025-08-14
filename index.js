@@ -119,7 +119,8 @@ ucebolunenlerintoplami = ucetambolunenler.reduce((toplam,sayi) => toplam + sayi,
 console.log(ucebolunenlerintoplami)
 
 // 3d çözümü
-
+besyuzdenkucuksayilar= sayilar.filter(sayi => sayi < 500)
+console.log(besyuzdenkucuksayilar)
 /* kodlar buraya */
 
 // 3e çözümü
