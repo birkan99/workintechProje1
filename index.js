@@ -109,9 +109,11 @@ for(let i =0; i<sayilar.length; i++){
 console.log("En küçük sayı:", enkucuk);
 console.log("En büyük sayı:", enbuyuk);
 // 3b çözümü:
-
-/* kodlar buraya */
-
+ucetambolunenler = [];
+sayilar.forEach(sayi => {
+  sayi % 3 === 0 ? ucetambolunenler.push(sayi) : null;
+});
+console.log(ucetambolunenler);
 // 3c çözümü:
 
 /* kodlar buraya */
